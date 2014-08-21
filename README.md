@@ -5,6 +5,8 @@ JY_SlideView
 直接可以在UIView中使用。
 具体使用方法：
 
+============
+
 @protocol D_SlideViewDelegate;
 @interface D_SlideView : UIView<SWTableViewCellDelegate>
 @property (nonatomic,assign) id<D_SlideViewDelegate> delegate;
