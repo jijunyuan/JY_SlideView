@@ -19,19 +19,18 @@ JY_SlideView
 @protocol D_SlideViewDelegate <NSObject><br /> 
 -----------
 @optional<br /> 
-/**
+
  *  @brief 点击滑出的左侧按钮  触发事件
  *
  *  @param aSlideView 所点击的view
- *  @param index      从左到右的索引  左侧起默认为0
- */<br /> 
-- (void)D_SlideView:(D_SlideView *)aSlideView didClickLeftButtonWithIndex:(NSInteger)index;<br /> 
+ *  @param index      从左到右的索引  左侧起默认为0<br />
+  
+ -(void)D_SlideView:(D_SlideView *)aSlideView didClickLeftButtonWithIndex:(NSInteger)index;<br /> 
 
-/**
+
  *  @brief 点击滑出的右侧按钮  触发事件
  *
  *  @param aSlideView 所点击的view
- *  @param index      从左到右的索引  左侧起默认为0
- */<br /> 
-- (void)D_SlideView:(D_SlideView *)aSlideView didClickRightButtonWithIndex:(NSInteger)index;<br /> 
-@end<br /> 
+ *  @param index      从左到右的索引  左侧起默认为0<br /> 
+ -(void)D_SlideView:(D_SlideView *)aSlideView didClickRightButtonWithIndex:(NSInteger)index;<br /> 
+ @end<br /> 
